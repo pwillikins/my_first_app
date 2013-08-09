@@ -3,6 +3,7 @@ MyFirstApp::Application.routes.draw do
   get 'time/now' => 'welcome#time'
   get 'hello/:name' => 'welcome#hello'
   get 'goodbye' => 'welcome#goodbye'
+  get 'introduce/:name1/and/:name2' => 'introduce#bobandann'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
